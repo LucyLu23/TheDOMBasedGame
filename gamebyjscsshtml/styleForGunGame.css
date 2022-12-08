@@ -1,0 +1,19 @@
+#stage {
+    width:360px;
+    height:666px;
+    margin:auto;
+    background-color: rgb(231, 197, 197);
+    color:white;
+    overflow: hidden;
+    position: relative;
+
+}
+bg1 {
+    background-image: url("https://imgur.com/a/jPYU4LE");
+    height:799px;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
