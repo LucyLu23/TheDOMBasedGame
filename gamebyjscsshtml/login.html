@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WelcometoGunGame</title>
+</head>
+<body>  
+    <form action="gungame.html" class="login">
+        <h1>WelcometoGunGame</h1>
+        <input type="text" id="name1" placeholder="PlayerName" />
+        <input id = "age" id="age1" type="number" placeholder="PlayerAge" /> 
+        <!-- <input type="text" placeholder="Password" /> -->
+        <input type="submit" value="submit" id="submit1" />
+    </form>
+    <script >        
+        var submit = document.getElementById('submit1');
+       
+        submit.addEventListener('click',func0);       
+        function func0(){
+            var playerAge = document.getElementById('age1').innerHTML;
+            var PlayerName = document.getElementById('name1').innerHTML;
+            console.log(playerAge,playerName);
+            if (playerAge >=18){
+                alert(`${playerName} are welcome`);
+            }else {
+                alert(`${playerName} are not allowed to play the game`);
+                return false;
+            }
+        }
+        setTimeout(func0, 6000);
+  
+    </script>
+   
+    
+    
+</body>
+</html>

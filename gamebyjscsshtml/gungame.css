@@ -3,43 +3,82 @@ body {
     background-size:cover;
    
 }
-
-#StartGame{
-    position: relative;
-    right: 0px;
-    margin-top: 30px;
-    
-}
-
-#Player2{
-    right: 0px;
-    margin-top: 120px;
-}
- 
-#Player1{
-    right: 0px;
-    margin-top: 120px;
-}
-
-#Restart{
-    right: 0px;
-    margin-top: 500px;
-}
 #img{
-   
     position: relative;
     left: auto;
     margin-top: 60px;
 }
-
-#CheckResult{
+#div00{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
    
-    position: relative;
-    left: 0;
-    margin-top: 500px;
 }
+#div0{
+    display: flex;    
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    width: 300px;
+     
+    
+}
+#div1{
+    width: 360px;
+    height: 190px;
+    display:flex;     
+    background-color: rgb(127, 252, 160);
+    flex-direction: column;
+    font-size:1.2em;
+    justify-content:end;       
+    text-align: center;
+    border-radius: 100%;
+    align-items:center;
+    justify-content:center;
+    color: blueviolet;
+    box-shadow: 10px 0 23px rgba(20, 47, 147, 0.8);  
+    margin-top: 200px; 
+    transition:1s;
+    text-decoration: dotted;
+      
+      
+}
+
+#StartGame, #Player1, #Player2, #CheckResult, #Restart{ 
+    background-image:url(gun1.PNG);
+    font-size: x-large; 
+    width: 200px;
+    height: 100px;
+    transition:0.5s;
+    border-radius: 22px;  
+    box-shadow: 10px 0 23px rgba(10, 47, 47, 0.8);  
+    display: block;
+  }
+
+#StartGame{ 
+    color: green;
+    margin-top: 10px;    
+}
+#Player1{
+    color: rgb(30, 5, 70);   
+}
+
+#Player2{
+    color: rgb(136, 215, 10); 
+}
+#CheckResult{
+    color: rgb(33, 124, 132); 
+  }
+#Restart{
+    color: rgb(115, 57, 75);   
+}   
+ 
+
 #colors{
     position: absolute;
     left:0px;
     margin-top: 60px;
 }
+
+
+
