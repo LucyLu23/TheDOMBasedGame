@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loginstyle.css">
     <title>WelcometoGunGame</title>
 </head>
 <body>  
@@ -18,10 +18,10 @@
     <script >        
         var submit = document.getElementById('submit1');
        
-        submit.addEventListener('click',func0);       
+        submit.addEventListener('onsubmit',func0);       
         function func0(){
-            var playerAge = document.getElementById('age1').innerHTML;
-            var PlayerName = document.getElementById('name1').innerHTML;
+            var playerAge = document.getElementById('age1').value;
+            var PlayerName = document.getElementById('name1').value;
             console.log(playerAge,playerName);
             if (playerAge >=18){
                 alert(`${playerName} are welcome`);
@@ -30,7 +30,8 @@
                 return false;
             }
         }
-        setTimeout(func0, 6000);
+        //div1.innerText =`Hi, ${playerName} Welcome to the Gun-fighting Game`;
+        //setTimeout(func0, 6000);
   
     </script>
    

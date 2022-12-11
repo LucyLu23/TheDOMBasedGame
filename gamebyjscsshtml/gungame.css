@@ -1,7 +1,7 @@
 body {
     background-image: url(gun1.PNG);
     background-size:cover;
-   
+      
 }
 #img{
     position: relative;
@@ -73,12 +73,14 @@ body {
     color: rgb(115, 57, 75);   
 }   
  
-
-#colors{
+/* #canvas {
     position: absolute;
-    left:0px;
-    margin-top: 60px;
+    display: block;
+    left: 0;
+    top: 0;
+    background-image:url(gun1.PNG);
+    z-index: -1;
 }
-
+ */
 
 
