@@ -1,3 +1,4 @@
+
 var div1= document.getElementById('div1');
 var button1 = document.getElementById('StartGame');
 button1.addEventListener('click',func1);

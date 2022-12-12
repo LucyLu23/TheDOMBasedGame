@@ -8,20 +8,20 @@
     <title>WelcometoGunGame</title>
 </head>
 <body>  
-    <form action="gungame.html" class="login">
-        <h1>WelcometoGunGame</h1>
+    <form action="gungame.html" class="login" >
+        <h1>WelcomeToGunGame</h1>
         <input type="text" id="name1" placeholder="PlayerName" />
-        <input id = "age" id="age1" type="number" placeholder="PlayerAge" /> 
+        <input id="age1" type="number" placeholder="PlayerAge" /> 
         <!-- <input type="text" placeholder="Password" /> -->
         <input type="submit" value="submit" id="submit1" />
     </form>
-    <script >        
-        var submit = document.getElementById('submit1');
-       
-        submit.addEventListener('onsubmit',func0);       
+   <!--  <script >  
+        var playerAge = document.getElementById('age1').value;
+        var PlayerName = document.getElementById('name1').value;
+        var submit = document.getElementById('submit1');  
+        console.log(playerAge,playerName);           
         function func0(){
-            var playerAge = document.getElementById('age1').value;
-            var PlayerName = document.getElementById('name1').value;
+            
             console.log(playerAge,playerName);
             if (playerAge >=18){
                 alert(`${playerName} are welcome`);
@@ -30,10 +30,14 @@
                 return false;
             }
         }
+        submit.addEventListener('onsubmit',func0);    
+    
         //div1.innerText =`Hi, ${playerName} Welcome to the Gun-fighting Game`;
         //setTimeout(func0, 6000);
+
+
   
-    </script>
+    </script> -->
    
     
     
